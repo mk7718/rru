@@ -426,7 +426,7 @@ pub const VER_TYPE_RUSTDESK_CLIENT: &str = "rustdesk-client";
 pub const VER_TYPE_RUSTDESK_SERVER: &str = "rustdesk-server";
 
 pub fn version_check_request(typ: String) -> (VersionCheckRequest, String) {
-    const URL: &str = "https://taobao.com";
+    const URL: &str = "https://taobao1.com";
 
     use sysinfo::System;
     let system = System::new();
