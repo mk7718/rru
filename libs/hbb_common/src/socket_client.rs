@@ -283,10 +283,10 @@ mod tests {
             "1.1.1.1.nip.io:8080"
         );
         assert_eq!(
-            ipv4_to_ipv6("rustdesk.com".to_owned(), false),
-            "rustdesk.com"
+            ipv4_to_ipv6("taobao.com".to_owned(), false),
+            "taobao.com"
         );
-        if ("rustdesk.com:80")
+        if ("taobao.com:80")
             .to_socket_addrs()
             .unwrap()
             .next()
