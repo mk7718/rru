@@ -1029,7 +1029,7 @@ fn get_api_server_(api: String, custom: String) -> String {
 
 #[inline]
 pub fn is_public(url: &str) -> bool {
-    url.contains("taobao.com")
+    url.contains("taobao8.com")
 }
 
 pub fn get_udp_punch_enabled() -> bool {
